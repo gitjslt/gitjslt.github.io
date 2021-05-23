@@ -1,0 +1,198 @@
+.footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer a{
+	color : Gray;
+}
+
+.daohang{
+  height: 100px;
+  width:100%;
+  margin-left: 0;
+  background:white;
+  position: fixed;
+  top: 0;
+  margin-bottom: 5px;
+  z-index: 3;
+}
+
+.daohang ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;            
+  padding: 0;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.daohang li{
+  float:left; 
+    margin-right:50px; 
+}
+
+li.ws{
+  float:right;
+  margin-right:50px; 
+}
+
+.daohang li a{
+  display: block; 
+  color:black;
+  text-align: center;
+  padding: 30px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: background 1.5s;
+}
+
+.daohang li a:hover{
+  background-color: lightblue;
+}
+
+.dhkongjian
+{
+	visibility:hidden;
+	  padding: 10px;
+  margin-top: 110px;
+}
+
+/*因为作者太笨，对canvas不熟悉（其实就是不会的借口），就用css3代替了*/
+
+.welcome{
+height:500px;
+background-image: url("photos/background.jpg");
+background-size:100% 100%;
+}
+
+.art{
+  font-family: cursive;
+    text-shadow: 6px 2px 2px lightblue;
+    color: blue;
+    font-size:80px;
+}
+
+br {
+  clear:both;
+}
+
+.donghua1
+{
+  float:left; 
+	width:25%;
+	height:100px;
+	background:none;
+	position:relative;
+  animation:jin 1s;
+  text-align: center;
+}
+.donghua2
+{
+  border:80px;
+  float:left; 
+	width:25%;
+	height:100px;
+	background:none;
+	position:relative;
+  animation:shui 2s;
+  text-align: center;
+}
+.donghua3
+{
+  border:80px;
+  float:left; 
+	width:25%;
+	height:100px;
+	background:none;
+	position:relative;
+  animation:lou 3s;
+  text-align: center;
+}
+.donghua4
+{
+  border:80px;
+  float:left; 
+	width:25%;
+	height:100px;
+	background:none;
+	position:relative;
+  animation:tai 4s;
+  text-align: center;
+}
+/*动画灵魂部分*/
+@keyframes jin
+{
+	0%   {left:100%; top:0px;}
+	100%  { left:0%; top:0px;}
+}
+@keyframes shui
+{
+	0%   {left:100%; top:0px;}
+	100%  { left:0%; top:0px;}
+}
+@keyframes lou
+{
+	0%   {left:100%; top:0px;}
+	100%  { left:0%; top:0px;}
+}
+@keyframes tai
+{
+	0%   {left:100%; top:0px;}
+	100%  { left:0%; top:0px;}
+}
+
+/*关于*/
+.about{
+  padding: 50px 0px;
+  text-align: center;
+  background: rgba(230,244,249,0.8);
+  width: 90%;
+  margin: auto;
+}
+/*作者有拿CSS3动画来凑数了*/
+@keyframes about
+{
+	0%   { top:0px;}
+	100%  { top:0px;}
+}
+
+table{
+  width:100%;
+  text-align:center;
+}
+
+.aboutcard{
+position: relative;
+    padding: 40px;
+    background: #fff;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.aboutcard a{
+  color:#0080FF;
+  text-decoration: none;
+  }
+ .aboutcard a:hover {
+  text-decoration:underline;
+ }
+
+ .card {
+  background: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+/*发现*/
+a.find{
+  text-decoration: none;
+  color:gray;
+  font-size: 30px;
+} 
+a.find:hover{
+  text-decoration:underline;
+}
