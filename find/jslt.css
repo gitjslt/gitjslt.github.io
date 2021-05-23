@@ -1,0 +1,110 @@
+.footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer a{
+	color : Gray;
+}
+
+.daohang{
+  height: 100px;
+  width:100%;
+  margin-left: 0;
+  background:white;
+  position: fixed;
+  top: 0;
+  margin-bottom: 5px;
+  z-index: 3;
+}
+
+.daohang ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;            
+  padding: 0;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.daohang li{
+  float:left; 
+    margin-right:50px; 
+}
+
+li.ws{
+  float:right;
+  margin-right:50px; 
+}
+
+.daohang li a{
+  display: block; 
+  color:black;
+  text-align: center;
+  padding: 30px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: background 1.5s;
+}
+
+.daohang li a:hover{
+  background-color: lightblue;
+}
+
+.dhkongjian
+{
+	visibility:hidden;
+	  padding: 10px;
+  margin-top: 110px;
+}
+
+ .card {
+  background: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+/*新年倒计时*/
+.newyear {
+  background: lightskyblue;
+  padding: 20px;
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.newyear span{
+  color:white;
+  font-size: 35px;
+}
+
+/*发现*/
+a.find{
+  text-decoration: none;
+  color:gray;
+  font-size: 30px;
+} 
+a.find:hover{
+  text-decoration:underline;
+}
+
+h1.title{
+  text-align: center;
+}
+p.date{
+  text-align: center;
+}
+
+.text{
+  background: wheat;
+  padding: 20px;
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+.text p{
+  text-indent: 2em;
+}
