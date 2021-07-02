@@ -143,6 +143,83 @@ br {
 	100%  { left:0%; top:0px;}
 }
 
+/*发现*/
+a.find{
+  text-decoration: none;
+  color:gray;
+  font-size: 30px;
+} 
+a.find:hover{
+  text-decoration:underline;
+}
+.findcard {
+  background: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  width: 1200px;
+  margin: auto;
+}
+.tab{
+  background-color:white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+input.tab{
+  display: none;
+}
+label{
+  float: left;
+  width: 33.33%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: rgb(175, 210, 233);
+  transition: all .3s;
+}
+label:hover{
+  background-color: rgb(210, 210, 233);
+}
+ul.tabs{
+  /* 清除浮动 */
+  clear: both;
+  height: 100%;
+  width: 6000px;
+  transition: all .5s;
+  list-style: none;
+}
+li.tab{
+  float: left;
+  padding: 40px;
+  width: 1300px;
+  height: 100%;
+}
+#tab1:checked~ul{
+  margin-left: 0;
+}
+
+#tab2:checked~ul {
+  margin-left: -1300px;
+}
+
+#tab3:checked~ul {
+  margin-left: -2600px;
+}
+#tab1:checked~label[for="tab1"]{
+  background-color: rgb(210, 210, 233);
+}
+
+#tab2:checked~label[for="tab2"] {
+  background-color: rgb(210, 210, 233);
+}
+
+#tab3:checked~label[for="tab3"] {
+  background-color: rgb(210, 210, 233);
+}
+
+
 /*关于*/
 .about{
   padding: 50px 0px;
@@ -151,7 +228,7 @@ br {
   width: 90%;
   margin: auto;
 }
-/*作者有拿CSS3动画来凑数了*/
+/*作者又拿CSS3动画来凑数了*/
 @keyframes about
 {
 	0%   { top:0px;}
@@ -185,14 +262,4 @@ position: relative;
   margin-top: 20px;
   width: 90%;
   margin: auto;
-}
-
-/*发现*/
-a.find{
-  text-decoration: none;
-  color:gray;
-  font-size: 30px;
-} 
-a.find:hover{
-  text-decoration:underline;
 }
