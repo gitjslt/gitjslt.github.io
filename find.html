@@ -5,7 +5,16 @@
 		<title>近水楼台|发现</title>
 		<link rel="shortcut icon" sizes="48x48" href="photos/近水楼台logo.png">
 		<link rel="stylesheet" type="text/css" href="jslt.css"/>
+		<link rel="stylesheet" type="text/css" href="find.css"/>
 		<script src="jslt.js"></script>
+		<style>
+			*{
+    padding: 0;
+    margin: 0;
+    /* 盒子模型 */
+    box-sizing: border-box;
+}
+			</style>
 	</head>
 	<body>
 		<div class="daohang">
@@ -18,9 +27,34 @@
 		</div>
 		<div class="dhkongjian"></div>
 		<div style="visibility:hidden;padding: 10px;margin-top: 10px;"></div>
-		<div class="card">
-			<a class="find" href="/find/2021052301">我又回来了</a>
-			<a style="color: gray; float:right;">2021.5.23</a>
+		<div class="tab">
+			<input class="tab" type="radio" name="tab" id="tab1" checked/>
+			<input class="tab" type="radio" name="tab" id="tab2"/>
+			<input class="tab" type="radio" name="tab" id="tab3"/>
+			<label for="tab1"><img src="" alt="" />垃圾捅</label>
+			<label for="tab2"><img src="" alt="" />垃圾堆</label>
+			<label for="tab3"><img src="" alt="" />身边的大佬</label>
+			<ul class="tabs">
+				<li class="tab">
+					<div class="findcard">
+						<a class="find" href="/find/垃圾桶/A2021052301">我又回来了</a>
+						<a style="color: gray; float:right;">2021.5.23</a>
+					</div>
+					<!-- <div style="visibility:hidden;padding: 5px;margin-top: 10px;"></div> -->
+				</li>
+				<li class="tab">
+					 <div class="findcard">
+						<a class="find" href="/find/B2021070201">hello world</a>
+						<a style="color: gray; float:right;">2021.7.2</a>
+					</div>
+				</li>
+				<li class="tab">
+					<div class="findcard">
+						<a class="find" href="/find">刘兴旺！！</a>
+						<a style="color: gray; float:right;">2021.7.2</a>
+					</div>
+				</li>
+			</ul>
 		</div>
 		<div class="footer">
 			<a>© 2021 近水楼台</a>
