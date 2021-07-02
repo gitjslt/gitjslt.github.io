@@ -67,19 +67,6 @@ li.ws{
   margin: auto;
 }
 
-/*新年倒计时*/
-.newyear {
-  background: lightskyblue;
-  padding: 20px;
-  margin-top: 20px;
-  width: 90%;
-  margin: auto;
-  text-align: center;
-}
-.newyear span{
-  color:white;
-  font-size: 35px;
-}
 
 /*发现*/
 a.find{
@@ -99,7 +86,7 @@ p.date{
 }
 
 .text{
-  background: wheat;
+  background: rgb(233, 230, 230);
   padding: 20px;
   margin-top: 20px;
   width: 90%;
